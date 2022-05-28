@@ -1,5 +1,6 @@
 body, html {
     background-color: #161313;
+    overflow-x: hidden;
 }
 
 a{
@@ -150,7 +151,7 @@ a:focus {
 
     #wrapper.toggled #navbar-wrapper,
     #wrapper.toggled #content-wrapper {
-        position: relative;
+        
         margin-right: 60px;
     }
 }
@@ -431,8 +432,7 @@ a:focus {
 }
 .aboutme{
     position: absolute;
-    background-color: black;
-    width: 100%;
+    width: auto;
     height: auto;
     margin-top: 560px;
     margin-left: 250px;
@@ -454,7 +454,16 @@ a:focus {
     color: #EC4B4B;
 }
 .aboutme-text1{
-    
+    font-size: 25px;
+    padding-left: 505px;
+    width: 1193px;
+    color: red;
+}
+.aboutme-img{
+    height: 465px;
+    margin-top: -206px;
+    margin-left: 50px;
+    box-shadow: -9px 9px 10px 0px rgb(207 0 0 / 76%);
 }
 
   
