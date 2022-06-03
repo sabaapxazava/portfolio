@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 body, html {
     background-color: #161313;
 }
 body{
     height:auto;
 }
-
 a{
     transition: 0.2s, color 0.2s;
 }
@@ -346,6 +346,10 @@ a:focus {
     .footer{
         display: none;
     }
+    #wrappera{
+        top: 1400px !important;
+        left: 232px !important;
+    }
 }
 @media (max-width: 500px){
     .aboutme{
@@ -369,6 +373,10 @@ a:focus {
     .aboutme-text1-box {
         width: 781px;
         margin-left: -628px !important;
+    }
+    #wrappera{
+        top: 1400px !important;
+        left: 232px !important;
     }
     .footer{
         display: none;
@@ -537,7 +545,7 @@ a:focus {
 .footer{
     position: absolute;
     right: 0;
-    top: 1990px;
+    top: 2500px;
     left: 0;
     padding: 1rem;
     background-color: #610000;
@@ -811,4 +819,61 @@ hr {
     .send-button {
         width: 99%;
     }
+}
+
+#wrappera{
+	position: absolute;
+	width: 404px;
+    top:1300px;
+    left: 833px;
+}
+.center {
+	left: 50%;
+	-webkit-transform: translate( -50% );
+	-ms-transform: translate( -50% );
+	transform: translate( -50% );
+}
+
+.pr{
+	width: 200px;
+	height: 280px;
+}
+.pr .track, .pr .fill{
+	fill: rgba(0, 0, 0, 0);
+	stroke-width: 3;
+	transform: rotate(90deg)translate(0px, -80px);
+}
+.pr .track{
+	stroke: rgb(56, 71, 83);
+}
+.pr .fill {
+	stroke: rgb(219, 0, 0);
+	stroke-dasharray: 219.99078369140625;
+	stroke-dashoffset: -219.99078369140625;
+	transition: stroke-dashoffset 1s;
+}
+.pr .bl .fill {
+	stroke: rgb(104, 214, 198);
+}
+.pr .green .fill {
+	stroke: rgb(94, 0, 0);
+}
+.pr .value, .progress .text {
+	font-family: 'Open Sans';
+	fill: rgb(100, 0, 0);
+	text-anchor: middle;
+}
+.pr .text {
+	font-size: 20px;
+    padding-left: 50px;
+    text-anchor: middle;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	cursor: default;
 }
