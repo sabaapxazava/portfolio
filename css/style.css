@@ -310,38 +310,65 @@ a:focus {
     padding-left: 740px;
     margin-top: 86px;
 }
-@media (min-width: 578px) and (max-width: 1086px){
+@media (min-width: 838px) and (max-width: 1086px){
     .aboutme-title{
-        padding-left: 239px !important;
+        padding-left: 50px !important;
     }
     .aboutme-text{
-        padding-left: 28px !important;
+        margin-left: -566px !important;
     }
     .aboutme-img{
         margin-top: 10px !important;
-        margin-left: 140px !important;
+        margin-left: -40px !important;
     }
     .aboutme-text1-box{
-        padding-left: 100px !important;
+        margin-left: -566px !important;
     }
 }
-@media (max-width: 578px){
+@media (min-width:500px) and (max-width: 838px){
     .aboutme{
         margin-top: 654px !important;
-        margin-left: 1px !important;
+        margin-left: 230px !important;
     }
     .aboutme-title{
-        padding-left: 92px !important;
+        padding-left: 50px !important;
     }
     .aboutme-text{
-        padding-left: 28px !important;
+        margin-left: -566px !important;
     }
     .aboutme-img{
         margin-top: 10px !important;
-        margin-left: 45px !important;
+        margin-left: -40px !important;
     }
     .aboutme-text1-box{
-        padding-left: 7px !important;
+        margin-left: -566px !important;
+    }
+    .footer{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .aboutme{
+        margin-top: 654px !important;
+        margin-left: 230px !important;
+    }
+    .aboutme-title {
+        position: absolute;
+        margin-top: -38px !important;
+        margin-left: -482px !important;
+    }
+    .aboutme-text {
+        width: 781px;
+        margin-left: -628px !important;
+    }
+    .aboutme-img {
+        height:300px !important;
+        margin-top: 23px !important;
+        margin-left: -200px !important;
+    }
+    .aboutme-text1-box {
+        width: 781px;
+        margin-left: -628px !important;
     }
     .footer{
         display: none;
@@ -405,7 +432,7 @@ a:focus {
         position: absolute;
         height:350px;
         padding-left: 507px;
-        padding-top: 90px;
+        padding-top: 0px;
     }
 }
 @media (max-width: 578px){
@@ -428,7 +455,7 @@ a:focus {
         color: #c70000;
     }
     .welcome-logo-img {
-        height: 66px;
+        height: 85px;
         position: absolute;
         top: 275px;
         left: 51px;
@@ -503,14 +530,14 @@ a:focus {
 }
 .aboutme-img{
     height: 465px;
-    margin-top: -170px;
+    margin-top: -240px;
     margin-left: 50px;
     box-shadow: -9px 9px 10px 0px rgb(207 0 0 / 76%);
 }
 .footer{
     position: absolute;
     right: 0;
-    top: 1500px;
+    top: 1990px;
     left: 0;
     padding: 1rem;
     background-color: #610000;
@@ -529,6 +556,14 @@ a:focus {
     color:rgb(255, 0, 0);
     text-decoration: none;
     padding-left: 5px;
+}
+
+
+.content {
+    padding: 20px 30px;
+    background-color: rgb(70, 0, 0);
+    position: relative;
+    border-radius: 6px;
 }
 
 #contact {
